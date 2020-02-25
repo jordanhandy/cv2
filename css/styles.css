@@ -1,0 +1,153 @@
+/************************TAG SELECTORS****************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 6em;
+  margin: 50px auto 0 auto;
+  color: #112d4e;
+  /* line-height:2; */
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  color: #3f72af;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #3f72af;
+}
+
+a{
+  color: #f9f7f7;
+  font-family: 'Roboto', sans-serif;
+}
+a:hover{
+  color: #112d4e;
+
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto
+}
+
+p{
+  line-height: 1.5;
+  font-family: 'Merriweather', serif;
+}
+
+/************************CLASS SELECTORS****************************************/
+/* Text and other content*/
+.bottom-container {
+  margin-top: 3em;
+  padding: 50px 0 20px;
+  background-color: #3f72af;
+}
+
+.contact-button {
+	box-shadow: 0 10px 14px -7px #276873;
+	background-color:#112e4e;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.contact-button:hover {
+	background-color:#408c99;
+}
+.contact-button:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+  color: #112d4e;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
+
+.footer-link{
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.middle-container{
+  margin:100px 0 100px 0;
+}
+
+.skill-row{
+  position: relative;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.subtitle{
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #dbe2ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+/*Images*/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.laptop-img{
+  float: left; /*clear:left; to undo */
+  width: 20%;
+  margin-right: 30px;
+}
+
+.profile-pic{
+  border-radius: 100%;
+}
+
+.support-img{
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
